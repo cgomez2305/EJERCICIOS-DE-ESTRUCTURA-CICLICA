@@ -218,7 +218,7 @@ for (let index = 0; index <= 1; index++) {
         nota1=parseFloat(prompt(`ingrese las notas del 40%`))
       }
     suma1+=nota1
-    suma1=suma1*0.4
+    suma1=(suma1/2)*0.4
     }
 for (let i = 0; i <=2; i++) {
     nota2=parseFloat(prompt(`ingrese las notas del 60%`))
@@ -227,7 +227,7 @@ for (let i = 0; i <=2; i++) {
         nota2=parseFloat(prompt(`ingrese las notas del 60%`))
       }
     suma2+=nota2
-    suma2=suma2*0.6
+    suma2=(suma2/3)*0.6
 } 
 console.log(`el promedio final de ${nombre} es : ${suma1+suma2}`)
 
